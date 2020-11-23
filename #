@@ -1,0 +1,390 @@
+<html>
+<head>
+<title>SM StoryBook</title>
+</head>
+<meta charset="utf-8" /> 
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" /> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="utf-8" /> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" /> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+	<title>Loader Demo</title> 
+	<style> 
+		#loader { 
+			border: 12px solid #f3f3f3; 
+			border-radius: 50%; 
+			border-top: 12px solid #444444; 
+			width: 70px; 
+			height: 70px; 
+			animation: spin 1s linear infinite; 
+		} 
+		
+		@keyframes spin { 
+			100% { 
+				transform: rotate(360deg); 
+			} 
+		} 
+		
+		.center { 
+			position: absolute; 
+			top: 0; 
+			bottom: 0; 
+			left: 0; 
+			right: 0; 
+			margin: auto; 
+		} 
+	</style> 
+</head> 
+<div id="loader" class="center"></div> 
+</div>
+<body> 
+	
+	<script> 
+		document.onreadystatechange = function() { 
+			if (document.readyState !== "complete") { 
+				document.querySelector( 
+				"body").style.visibility = "hidden"; 
+				document.querySelector( 
+				"#loader").style.visibility = "visible"; 
+			} else { 
+				document.querySelector( 
+				"#loader").style.display = "none"; 
+				document.querySelector( 
+				"body").style.visibility = "visible"; 
+			} 
+		}; 
+	</script> 
+</body> 
+
+</html> 
+
+
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: black;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: red;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+div {
+  background: ;
+ }
+</style>
+</head>
+<body>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Contact Us</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">About Us</button>
+</div>
+
+<div  id="London" class="tabcontent">
+  <style>
+body  {
+
+    background-image: url();
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+</style>
+<style>
+.header {
+    background-color: #f1f1f1;
+	overflow: hidden;
+	color: Black;
+	height: 150px;
+	font-family: Sans-serif;
+
+}
+
+
+</style>
+
+<div align= "center" class= "header">
+<img src= "2sm.png" alt= "Company Logo" height= "140px">
+
+</div>
+
+</header>
+<br>
+
+</head>
+
+
+<br>
+
+
+<br>
+<style>
+.mySlides {display:none;}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<body>
+
+
+
+<div class="row">
+  <div class="column" >
+  <img class="mySlides" src="https://www.w3schools.com/w3css/img_snowtops.jpg" style="width:80%;height: 40%">
+  
+  
+  <img class="mySlides" src="2sm.png" style="width:80%;height: 50%px">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<div class="column">
+<font size= "4" color= "blue">
+<h1 >SM Techsite</h1><br>
+</font>
+
+<p1>We are a group of researcher's who find differnt technologies, games and other for you and share these by Youtube and Websites. <br>You can follow us 
+by clicking in youtube icon below. This site is under processing so upadates will change daily. Till now we have not collected information about anything. 
+But will share as soon as possible.</p>
+</div>
+</div><br>
+<style>
+.fa {
+ 
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  position: fixed;
+  
+  }
+
+
+.fa:hover {
+    
+	font-size: 35px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+}
+
+.fa-youtube {
+  background: white;
+  color: red;
+}
+
+
+</style>
+<body>
+<div align= "center">
+<a href="https://www.youtube.com/channel/UC80KXUW1Hw8URvvf8lq-EHw?view_as=subscriber"  target="_blank" class="fa fa-youtube" title= "Subscribe Us in Youtube"></a>
+
+</div>
+<br>
+<style>
+.footer {
+    background-color: #333;
+	overflow: hidden;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	color: Black;
+	height: 50px;
+	font-family: Sans-serif;
+	cursor: pointer;
+	transition: 1s;
+
+}
+a.ex1 {
+color: white;
+transition: 1s;
+
+}
+
+a.ex1:hover, a.ex1:active {color: Lightblue;}
+</style>
+
+<div align= "center" class= "footer">
+<font size= "2" color= "white">
+<p>©Copyright 2020 <a  class= "ex1" href= "file:///C:/Users/91941/OneDrive/Desktop/new%201.html" style= "text-decoration: none;">SM Technology</a> All right Reserve</p>
+</div> 
+
+</div>
+
+<div id="Paris" class="tabcontent">
+  <style>
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class= "column">
+<div class="chip">
+
+
+  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Person" width="96" height="96">
+  Shaurya Mishra
+ 
+
+<div>
+<Font size= "4" color= "#555">
+<p><b>Phone Number</b>: +91 1234567890</p>
+<p><b>Email</b>: smtechexample@mail.com</p>
+</div>
+</div>
+
+</div>
+
+  <div class= "column">
+<div class="chip">
+   <img src= "https://www.w3schools.com/howto/img_avatar.png" alt= "person" width="96" height="96">
+   Alok Mishra
+<div>
+<Font size= "4" color= "#555">
+<p><b>Phone Number</b>: +91 5623562356</p>
+<p><b>Email</b>: alokmishra@mail.com</p>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div id="Tokyo" class="tabcontent">
+ <div>
+  
+ </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</html>   
